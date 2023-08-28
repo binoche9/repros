@@ -1,0 +1,14 @@
+{
+  "name": "repros",
+  "version": "1.0.0",
+  "description": "A repo for repros to report issues",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+      "iconv-lite": "0.6.3"
+  },
+  "author": "repro",
+  "license": "ISC"
+}
