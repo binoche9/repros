@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package com.settings;
+
+service Settings {
+    rpc Set(RequestP) returns (ResponseP);
+}
+
+message RequestP{
+    int64 id = 1;
+}
+
+message ResponseP {
+    string primary_key_id = 1;
+}
+

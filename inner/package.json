@@ -1,0 +1,17 @@
+{
+  "name": "inner",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@bufbuild/protobuf": "1.3.1",
+    "@bufbuild/protoc-gen-connect-es": "0.13.0",
+    "@bufbuild/protoc-gen-es": "1.3.1",
+    "typescript": "5.2.2"
+  },
+  "author": "",
+  "license": "ISC"
+}
